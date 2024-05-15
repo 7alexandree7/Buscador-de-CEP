@@ -39,7 +39,7 @@ function App() {
 
       <div className='container-input'>
 
-        <input type="text" name="" id="" placeholder='Digite seu CEP...' onChange={(e) => setInput(e.target.value)} />
+        <input type="text" name="" id="" placeholder='Digite seu CEP...' value={input} onChange={(e) => setInput(e.target.value)} />
         <button className='buttonSearch' onClick={handleSearch}> <FiSearch size={25} color='#000' /> </button>
 
       </div>
