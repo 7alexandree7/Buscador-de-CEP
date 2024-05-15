@@ -35,7 +35,7 @@ function App() {
 
     <div className='container'>
 
-      <h1 className='title'>Bucasdor De Cep</h1>
+      <h1 className='title'>Buscador De Cep</h1>
 
       <div className='container-input'>
 
